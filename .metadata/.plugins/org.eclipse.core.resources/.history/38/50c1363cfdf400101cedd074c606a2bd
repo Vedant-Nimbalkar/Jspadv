@@ -1,0 +1,6 @@
+<%! 
+ public String generateWishMessage(String user)
+ {
+	java.time.LocalDateTime ldt=java.time.LocalDateTime.now();
+ }
+%>

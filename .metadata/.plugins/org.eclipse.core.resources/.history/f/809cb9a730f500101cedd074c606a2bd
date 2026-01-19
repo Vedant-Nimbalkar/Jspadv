@@ -1,0 +1,29 @@
+<%!
+public String generateWishMessage(String user)
+{
+    // get system date and time
+    java.time.LocalDateTime ldt = java.time.LocalDateTime.now();
+
+    // get current hour of the day
+    int hour = ldt.getHour();   // 0–23
+
+    if (hour < 12)
+        return "good morning " + user;
+    else if (hour < 16)
+        return "good afternoon " + user;
+    else if (hour < 20)
+        return "good evening " + user;
+    else
+        return "good night " + user;
+}
+%>
+
+<h1 style="color:red;text-align:center">Welcome to jSp page</h1>
+<br>
+<br>
+<h1 style="color:green">Date and time is ::<%=new java.util.Date() %></h1>
+
+<% String name="Vedant";%>
+<br><br>
+
+<b>WISH MESSAGE IS:::<%=generateWishMessage(name) %></b>

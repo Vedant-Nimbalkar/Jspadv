@@ -1,0 +1,18 @@
+2026-01-15 10:49:24,491 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2026-01-16 00:21:02,111 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-01-16 00:36:45,014 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-01-16 00:48:45,469 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-01-16 01:19:43,563 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-01-16 01:20:56,673 [Worker-36: https://download.eclipse.org/technology/epp/packages/2025-12/compositeArtifacts.xml] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - ex-0000000043 recoverable I/O exception (java.net.SocketException) caught when sending request to https://download.eclipse.org:443;request will be automatically re-executed in 0 MILLISECONDS (exec count 2)
+2026-01-16 09:49:21,186 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-01-16 23:49:39,476 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-01-16 23:49:40,348 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2026-01-19 10:22:43,497 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-01-19 12:52:33,366 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.1.4; built: 2025-11-10T17:42:37.481Z; git: 4137e00793d583cfc4ce76bf607e482178a85597; jvm 21.0.8+9-LTS
+2026-01-19 12:52:33,648 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@4d567a62{/wse,/wse,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7a490f47{STARTED}}
+2026-01-19 12:52:33,650 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-01-19 12:52:33,701 [main] INFO  o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@794d06b8{HTTP/1.1, (http/1.1)}{0.0.0.0:52126}
+2026-01-19 12:52:33,703 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@33f84298{STARTING}[12.1.4,sto=0] @344ms
+2026-01-19 12:52:34,251 [qtp701876742-762] INFO  o.e.j.e.nested.ContextHandler._wse - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2026-01-19 21:39:54,579 [Framework stop - Equinox Container: de1a0e6c-56d8-4e84-899a-09eb32dcf157] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@33f84298{STOPPING}[12.1.4,sto=0]
+2026-01-19 21:39:54,586 [Framework stop - Equinox Container: de1a0e6c-56d8-4e84-899a-09eb32dcf157] INFO  o.e.jetty.server.AbstractConnector - Stopped oejs.ServerConnector@794d06b8{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
