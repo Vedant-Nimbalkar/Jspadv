@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Person detail</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    padding: 25px 40px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="form-box">
+  <h1 style="color:red;text-align:center">HTML to jsp to db</h1>
+
+  <form action="jspurl" method="post">
+
+    <label>Person Name:</label><br>
+    <input type="text" name="pname" required><br><br>
+
+    <label>Person Age:</label><br>
+    <input type="number" name="page" required><br><br>
+
+    <label>Address:</label><br>
+    <input type="text" name="paddress" required><br><br>
+
+    <label>Email ID:</label><br>
+    <input type="email" name="pemail" required><br><br>
+
+    <input type="submit" value="register" name="p1">
+    <input type="reset" value="Clear">
+  </form>
+
+  <h2 style="text-align:center">
+    <a href="jspurl">Get all person details</a>
+  </h2>
+</div>
+
+</body>
+</html>
